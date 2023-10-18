@@ -1,0 +1,38 @@
+body {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    font-family: "NanumSquareRound", sans-serif;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color:#F2F2F2;
+    padding :20px;}
+
+.menu img{
+   margin-bottom :10px;}
+
+.nav,
+.signin {
+   margin-left :40px;}
+
+.nav h3,
+.signin h4,
+.nav a,
+.signin a{
+   display:inline;
+   margin-right :20px;
+   color:#848484;
+   text-decoration:none;} /* 밑줄 제거 */
+
+.nav a:hover,
+.signin a:hover{
+   color:black} /* 마우스 호버 시의 색상 변경 */
+
+.signin {
+   margin-left:auto;}
